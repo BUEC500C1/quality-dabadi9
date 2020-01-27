@@ -1,4 +1,4 @@
 import HW1
 
 def test_convertion():
-  assert arabic_to_roman(100) == "C"
+  assert HW1.arabic_to_roman(100) == "C"
