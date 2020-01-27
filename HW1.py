@@ -1,4 +1,7 @@
 def arabic_to_roman(number):
+    if isinstance(number, int) == False:
+        return "ERROR"
+    
     arabic = [1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1]
 
     roman = ["M", "CM", "D", "CD", "C", "XC",
